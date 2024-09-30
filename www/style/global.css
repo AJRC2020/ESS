@@ -1,0 +1,115 @@
+/* global.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#login_logo {
+    width: 256px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#sm_logo {
+    margin-left: 5em;
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+}
+
+#show-password {
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+#show-password:hover {
+    background-color: #ccc;
+}
+
+#generate-password {
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(25, 128, 53);
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+#generate-password:hover {
+    background-color: rgb(25, 128, 53, 0.8);
+}

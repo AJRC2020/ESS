@@ -1,0 +1,71 @@
+/* admin.css */
+
+/* General body styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Vertically center the items */
+}
+
+/* Style for the logo */
+header img {
+    margin-right: 20px; /* Adjust the margin to create space between the logo and other elements */
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Adjust styling for other header elements */
+header h1,
+header button {
+    display: block;
+    text-align: center; /* Center align text */
+}
+
+/* Heading styles */
+h1 {
+    margin: 0;
+}
+
+/* Back button styles */
+#backToMainBtn {
+    background-color: #003d7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#backToMainBtn:hover {
+    background-color: #00244b;
+}
+
+/* Main section styles */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* File store and file share section styles */
+section {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

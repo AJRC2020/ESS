@@ -1,0 +1,14 @@
+[general]
+port = 8080
+
+[auth-server]
+host = "localhost"
+port = 27464
+
+[filestore-server]
+host = "localhost"
+port = 27400
+
+[fileshare-server]
+host = "localhost"
+port = 27401

@@ -1,0 +1,13 @@
+[general]
+port = 27401
+
+[auth-server]
+host = "localhost"
+port = 27464
+
+[filestore-server]
+host = "localhost"
+port = 27400
+
+[file-share]
+share-role = "sharer"

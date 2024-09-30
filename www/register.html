@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CipherShare - Register</title>
+        <link rel="stylesheet" href="style/global.css" />
+    </head>
+    <body>
+        <div class="register-container">
+            <h1>Register</h1>
+
+            <form id="register-form" method="POST">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required />
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        required
+                    />
+                    <p id="password-error" style="display: none; color: red">
+                        Passwords do not match
+                    </p>
+                </div>
+                <div>
+                    <button type="button" id="show-password">Show Password</button>
+                </div>
+                <div>
+                    <button type="button" id="generate-password">Generate Password</button>
+                </div>
+                <div>
+                    <input type="submit" id="submitButton" value="Register" />
+                </div>
+                <div id="info-message" style="display: none; color: rgba(100,100,100); font-weight: bold;"></div>
+                <div id="error-message" style="display: none; color: red; font-weight: bold;"></div>
+            </form>
+            <p style="text-align: center">Changed your mind? <a href="/login.html">Back to login</a></p>
+        </div>
+        <script src="vendor/jsencrypt.min.js"></script>
+        <script src="authRegister.js"></script>
+    </body>
+</html>

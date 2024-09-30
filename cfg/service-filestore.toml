@@ -1,0 +1,11 @@
+[general]
+port = 27400
+
+[auth-server]
+host = "localhost"
+port = 27464
+
+[file-store]
+known-services = ["::1"]
+read-role = "viewer"
+write-role = "uploader"

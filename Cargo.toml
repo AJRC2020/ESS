@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["app-server", "auth-server", "server-common", "service-fileshare", "service-filestore"]

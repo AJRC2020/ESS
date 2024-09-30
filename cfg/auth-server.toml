@@ -1,0 +1,7 @@
+[general]
+port = 27464
+
+[authenticator]
+allowed-roles = ["admin", "viewer", "uploader", "sharer"]
+default-roles = ["viewer"]
+known-services = ["::1"]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CipherShare - Login</title>
+        <link rel="stylesheet" href="style/global.css" />
+    </head>
+    <body>
+        <div class="login-container">
+            <img
+                id="login_logo"
+                src="assets/logo/ciphershare.png"
+                alt="CipherShare Logo"
+            />
+            <h1>Login</h1>
+
+            <form id="login-form" method="POST">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required />
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                    />
+                </div>
+                <div>
+                    <input type="submit" id="submitButton" value="Login" />
+                </div>
+                <div id="info-message" style="display: none; color: rgba(100,100,100); font-weight: bold;"></div>
+                <div id="error-message" style="display: none; color: red; font-weight: bold;"></div>
+            </form>
+
+            <p>Don't have an account? <a href="/register.html">Register</a></p>
+        </div>
+        <script src="vendor/jsencrypt.min.js"></script>
+        <script src="authLogin.js"></script>
+    </body>
+</html>
